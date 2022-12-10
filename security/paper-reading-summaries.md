@@ -31,3 +31,7 @@ https://www.first.org/cvss/v3.1/specification-document
 
 
 kubebench是否用了CCE？ 
+
+
+
+”Security assessment framework for educational ERP systems“  这篇文章感觉略水，主要想要解决由CVE到CWE的匹配/关联的问题。 用的方式就是聚类/词频分析之类。 from 沙特的学校，好吧
