@@ -7,6 +7,7 @@ Information about security vulnerabilities can be gathered from various sources 
 <br/>
 
 Action enforcement suggestions	
+
 To maintain users' systems secure and fully operational, people need to spend most of their time consulting security advisories in order to identify which of these vulnerabilities really represent a threat for their systems and to determine which countermeasures (e.g., installing a patch, modifying a firewall rule, etc.) must be applied
 
 <br/>
