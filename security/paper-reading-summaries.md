@@ -35,3 +35,13 @@ kubebench是否用了CCE？
 
 
 ”Security assessment framework for educational ERP systems“  这篇文章感觉略水，主要想要解决由CVE到CWE的匹配/关联的问题。 用的方式就是聚类/词频分析之类。 from 沙特的学校，好吧
+
+
+“Remediation_of_Application-Specific_Security_Vulnerabilities_at_Runtime”
+漏洞exploit行为产生的系统调用与正常的系统调用序列有明显的区别：
+方法：
+1.异常检测---较高的假阳性率 因为训练时，很难模拟覆盖程序所有的正常行为
+2.基于规则的匹配--- 较低的假阳性率 但无法检测出新的攻击或者与已知攻击的变种攻击
+综合两种方法
+
+
