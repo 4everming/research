@@ -30,7 +30,7 @@ Project Narrows中的ArkSec Scanner使用的是CVSS 3.1的标准。
 在CVSS中，分成3类metric group：
 ![image](https://raw.githubusercontent.com/4everming/research/main/security/paper-reading-summaries/cvss-metricgroup.png)
 
-#### Base Metric Group (usually provided/defined by security/hardware/software vendors, such as Cicso/Redhat...)
+#### Base Metric Group (usually provided/defined by security/hardware/software vendors, such as Cisco/Redhat...)
 该分数与配置无关，假定所有的完成攻击需要的条件都已经具备。
 ###### AV：分数从高到低 (N-A-L-P)
 ###### AC：the conditions beyond the attacker’s control that must exist in order to exploit the vulnerability. 分数越高，复杂度越低。(Low, High)
