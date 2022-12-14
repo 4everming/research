@@ -27,14 +27,31 @@ Project Narrows中的ArkSec Scanner使用的是CVSS 3.1的标准。
 
 <br/>
 
-https://www.first.org/cvss/v3.1/specification-document
 
 
 kubebench是否用了CCE？ 
 
 
 
+通用弱点评价体系（CVSS）是由NIAC开发、FIRST维护的一个开放并且能够被产品厂商免费采用的标准。利用该标准，可以对弱点进行评分，进而帮助我们判断修复不同弱点的优先等级。
+CVSS : Common Vulnerability Scoring System，即“通用漏洞评分系统”，是一个“行业公开标准，其被设计用来评测漏洞的严重程度，并帮助确定所需反应的紧急度和重要度”。
+
+https://www.first.org/cvss/v3.1/specification-document
+
+CVSS得分基于一系列维度上的测量结果，这些测量维度被称为量度（Metrics）。漏洞的最终得分最大为10，最小为0。
+而目前risk scanner的scale是0～5，why？
+<img width="797" alt="image" src="https://user-images.githubusercontent.com/12963596/207510597-da001825-2f6d-41f7-9f70-2ab843e991ec.png">
+
+
+
 ”Security assessment framework for educational ERP systems“  这篇文章感觉略水，主要想要解决由CVE到CWE的匹配/关联的问题。 用的方式就是聚类/词频分析之类。 from 沙特的学校，好吧
+
+
+
+
+
+
+
 
 
 “Remediation_of_Application-Specific_Security_Vulnerabilities_at_Runtime”
