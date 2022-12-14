@@ -78,7 +78,6 @@ These metrics enable the analyst to override individual Base metrics based on sp
 CVSS得分基于一系列维度上的测量结果，这些测量维度被称为量度（Metrics）。漏洞的最终得分最大为10，最小为0。
 而目前risk scanner的scale是0～5。
 <br/>
-<img width="797" alt="image" src="https://user-images.githubusercontent.com/12963596/207510597-da001825-2f6d-41f7-9f70-2ab843e991ec.png">
 
 
 
