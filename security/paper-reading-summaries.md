@@ -15,10 +15,10 @@ To maintain users' systems secure and fully operational, people need to spend mo
 现存的安全领域的数据库或spec：
 
 
-Common Configuration Enumeration (CCE）  kubebench是否用了CCE？ 
-Common Weakness Enumerations (CWE)
-National Vulnerability Database (NVD)
-Common Vulnerability Scoring System (CVSS)
+#### Common Configuration Enumeration (CCE）  kubebench是否用了CCE？ 
+#### Common Weakness Enumerations (CWE)
+#### National Vulnerability Database (NVD)
+#### Common Vulnerability Scoring System (CVSS)
 
 
 
@@ -30,10 +30,20 @@ Project Narrows中的ArkSec Scanner使用的是CVSS 3.1的标准。
 在CVSS中，分成3类metric group：
 ![image](https://raw.githubusercontent.com/4everming/research/main/security/paper-reading-summaries/cvss-metricgroup.png)
 
-####Base Metric Group (usually provided/defined by security vendors)
-####Temporal Metric Group (usually provided/defined by security vendors):
+#### Base Metric Group (usually provided/defined by security/hardware/software vendors, such as Cicso/Redhat...)
+该分数与配置无关，假定所有的完成攻击需要的条件都已经具备。
+###### AV：分数从高到低 (N-A-L-P)
+###### AC：the conditions beyond the attacker’s control that must exist in order to exploit the vulnerability. 分数越高，复杂度越低。(Low, High)
+###### PR: The Base Score is greatest if no privileges are required.(None, Low, High)
+###### UI: This metric captures the requirement for a human user, other than the attacker, to participate in the successful compromise of the vulnerable component. The Base Score is greatest when no user interaction is required. (None, Required)
+
+###### Scope: whenever the impact of a vulnerability breaches a security/trust boundary and impacts components outside the security scope in which vulnerable component resides, a Scope change occurs. (Unchanged, Changed)
+
+#### Temporal Metric Group (usually provided/defined by security vendors, not mandatory):
 reflects the characteristics of a vulnerability that may change over time but not across user environments. For example, the presence of a simple-to-use exploit kit would increase the CVSS score, while the creation of an official patch would decrease it.
-####Environmental Metric Group(usually provided/defined by users)
+#### Environmental Metric Group(usually provided/defined by users, not mandatory)
+The presence of security controls which may mitigate some or all consequences of a successful attack, and the relative importance of a vulnerable system within a technology infrastructure.
+
 
 
 <br/>
