@@ -30,7 +30,6 @@ https://www.first.org/cvss/v3.1/specification-document
 
 Project Narrows中的ArkSec Scanner使用的是CVSS 3.1的标准。
 在CVSS中，分成3类metric group：
-![image](https://raw.githubusercontent.com/4everming/research/main/security/paper-reading-summaries/cvss-metricgroup.png)
 
 #### Base Metric Group (usually provided/defined by security/hardware/software vendors, such as Cicso/Redhat...)
 该分数与配置无关，假定所有的完成攻击需要的条件都已经具备。
@@ -78,9 +77,13 @@ These metrics enable the analyst to override individual Base metrics based on sp
 
 
 CVSS得分基于一系列维度上的测量结果，这些测量维度被称为量度（Metrics）。漏洞的最终得分最大为10，最小为0。
-而目前risk scanner的scale是0～5。
+目前risk scanner的scale是0～5。
 <br/>
 
+
+
+有了CVSS就足够了吗？
+![image](https://raw.githubusercontent.com/4everming/research/main/security/paper-reading-summaries/cvss-metricgroup.png)
 
 
 
