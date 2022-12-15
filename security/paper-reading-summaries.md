@@ -21,6 +21,7 @@ To maintain users' systems secure and fully operational, people need to spend mo
 #### Common Vulnerability Scoring System (CVSS)
 #### CMSS CWSS CCSS
 
+<img width="978" alt="A CVSS Score of 10 Here" src="https://user-images.githubusercontent.com/12963596/207780293-0cb00399-aeb1-4f57-9ebc-95d7862de038.png">
 
 
 通用弱点评价体系（CVSS）是由NIAC开发、FIRST维护的一个开放并且能够被产品厂商免费采用的标准。利用该标准，可以对弱点进行评分，进而帮助我们判断修复不同弱点的优先等级。
