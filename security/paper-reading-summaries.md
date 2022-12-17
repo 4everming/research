@@ -1,5 +1,12 @@
 
 
+
+https://osv.dev/ 
+
+HummerRisk：
+https://mp.weixin.qq.com/s/v2MybOeTa0CI8ZJDHQDraA
+
+
 Security data source
 
 Information about security vulnerabilities can be gathered from various sources namely vulnerability databases. Some of them are publicly accessible (like OSVDB, NVD, CVE, etc.), and free others can be consulted after payment of a certain amount (like SecureBase by SPI Dynamics).
@@ -27,6 +34,10 @@ To maintain users' systems secure and fully operational, people need to spend mo
 
 通用弱点评价体系（CVSS）是由NIAC开发、FIRST维护的一个开放并且能够被产品厂商免费采用的标准。利用该标准，可以对弱点进行评分，进而帮助我们判断修复不同弱点的优先等级。
 CVSS : Common Vulnerability Scoring System，即“通用漏洞评分系统”，是一个“行业公开标准，其被设计用来评测漏洞的严重程度，并帮助确定所需反应的紧急度和重要度”。
+
+
+
+
 https://www.first.org/cvss/v3.1/specification-document
 
 Project Narrows中的ArkSec Scanner使用的是CVSS 3.1的标准。
